@@ -1,0 +1,9 @@
+Ready-for-Checks+1: Christopher Beer <cbeer@redhat.com>
+Code-Review+1: Tomas Klohna <tklohna@redhat.com>
+Code-Review+2: Christopher Beer <cbeer@redhat.com>
+Verified+1: Christopher Beer <cbeer@redhat.com>
+Submitted-by: Christopher Beer <cbeer@redhat.com>
+Submitted-at: Fri, 08 Feb 2019 20:03:04 +0000
+Reviewed-on: https://gerrit.beaker-project.org/6417
+Project: beaker-meta-tasks
+Branch: refs/heads/master
