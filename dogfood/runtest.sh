@@ -84,3 +84,7 @@ rhts-submit-log -l /var/log/beaker/server-errors.log
 rhts-submit-log -l /var/log/beaker/server-debug.log
 rhts-submit-log -l /var/log/httpd/access_log
 rhts-submit-log -l /var/log/httpd/error_log
+rhts-submit-log -l /var/log/beaker/proxy.log
+rhts-submit-log -l /var/log/beaker/watchdog.log
+rhts-submit-log -l /var/log/beaker/transfer.log
+rhts-submit-log -l /var/log/beaker/provision.log
