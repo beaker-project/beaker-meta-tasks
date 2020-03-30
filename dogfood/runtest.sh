@@ -17,6 +17,10 @@
 
 . /usr/bin/rhts-environment.sh
 
+# Make things more verbose
+set -x
+export PS4='+ ${BASH_SOURCE:-}:${FUNCNAME[0]:-}:L${LINENO:-}:   '
+
 function run() {
     phase="$1"
     shift
