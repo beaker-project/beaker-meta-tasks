@@ -47,10 +47,9 @@ else
 fi
 export BEAKER_SERVER_BASE_URL="http://$(hostname -f)/bkr/"
 
-# Beaker 22 switched to py.test instead of nose. The bkr.inttest.conftest
+# py.test may be used instead of nose. The bkr.inttest.conftest
 # module is a pytest local plugin, so we can use its presence as an indication
-# that we should be running py.test. If it's absent we fall back to nose to
-# support older Beaker branches.
+# that we should be running py.test. If it's absent we fall back to nose.
 if python -c 'import bkr.inttest.conftest' 2>/dev/null ; then
     echo "Running tests with py.test"
     run tests /usr/bin/time py.test -v --pyargs $PACKAGES_TO_TEST
